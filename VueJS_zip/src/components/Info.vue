@@ -1,5 +1,5 @@
 <template>
-  <div class=" md:flex">
+  <div class="container md:flex">
     <div v-for="item in 2" :key="item" class="md:flex">
       <img src="../../public/info_flower.svg" alt="img" class="md:m-0 mx-auto" />
       <div class="flex flex-wrap items-center md:justify-end justify-start px-[1%] py-[5%]">

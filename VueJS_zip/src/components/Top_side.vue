@@ -3,8 +3,8 @@ import { ref } from "vue";
 </script>
 
 <template>
-  <div class="container md:px-0 px-[10%] md:flex block md:flex-nowrap ">
-    <div class="md:ml-10">
+  <div class="container md:flex block ">
+    <div>
       <p class="text-center md:text-left">Welcome to GreenShop</p>
       <h1 class="text-center md:text-left">Let’s Make a Better <span>Planet</span></h1>
       <p class="text-center md:text-left md:mt-0 mt-6">

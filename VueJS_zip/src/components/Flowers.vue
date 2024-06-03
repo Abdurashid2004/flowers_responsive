@@ -18,7 +18,6 @@ const items = ref(["All Plants", "New Arrivals", "Sale"]);
 
 <style scoped>
 .container {
-  /* width: 100%; */
   margin-top: 12px;
   gap: 33px;
   position: relative;

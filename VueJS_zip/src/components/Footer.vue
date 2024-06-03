@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <div class="container grid md:grid-cols-5 grid-cols-2 md:gap-x-[240px] gap-8 p-[23px] px-[10%] md:px-0">
-    <div v-for="(item, index) in 3" :key="index">
+    <div v-for="(item, index) in 3" :key="index" class="pl-2">
       <h3 class="text-[#3D3D3D] text-[18px] font-bold">My Account</h3>
       <p class="text-[ #3D3D3D] mt-2">
         My Account Our stores Contact us Career Specials
@@ -10,7 +10,7 @@
     <div class="md:col-span-2 grid-cols-1">
       <h3 class="text-[#3D3D3D] text-[18px] font-bold">Social Media</h3>
       <div class="flex gap-[10px] mt-5">
-        <img class="p-2"
+        <img class="px-3 py-2 border border-green-500 rounded-md cursor-pointer"
           v-for="(item, index) in 5"
           :key="index"
           src="../../public/facebook.svg"

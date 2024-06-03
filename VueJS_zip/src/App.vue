@@ -10,23 +10,13 @@ import Blogs from "./components/Blogs.vue";
 import Email from "./components/Email.vue";
 import Contact from "./components/Contact.vue";
 import Footer from "./components/Footer.vue";
+import { RouterView } from "vue-router";
 </script>
 
 <template>
   <div class="flex flex-wrap justify-center container">
-    <Header />
-    <Top_side />
-    <div class="flex justify-end px-[10%] w-screen">
-      <Menu />
-    </div>
-    <div class="md:flex w-screen px-[10%] md:gap-[50px]">
-      <Category class="md:w-[calc(100%/4+5%)] w-full" />
-      <Flowers />
-    </div>
-
-    <Pagination />
-    <Info />
-    <Blogs />
+    <Header class="bg-green-100" />
+    <RouterView />
     <Email />
     <Contact />
     <Footer />

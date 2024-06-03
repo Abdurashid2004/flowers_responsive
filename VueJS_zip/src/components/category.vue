@@ -67,15 +67,12 @@ const inside_cate_size = ref(["(119)", "(86)", "(78)"]);
 </template>
 
 <style scoped>
-.container {
-  /* margin-top: 12px; */
+/* .container {
   display: flex;
-  flex-direction: column; /* Modified for vertical layout */
-  /* padding: 26px 0; */
-  gap: 20px; /* Modified for spacing between categories */
+  flex-direction: column; 
+  gap: 20px; 
   position: relative;
-  /* padding-right: 0; */
-}
+} */
 
 .general {
   padding: 0 20px;

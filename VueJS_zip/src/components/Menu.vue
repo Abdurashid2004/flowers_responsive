@@ -5,13 +5,31 @@ const items = ref(["All Plants", "New Arrivals", "Sale"]);
 </script>
 
 <template>
-  
-  <div class="container md:w-[74%] w-full">
-    <div class="right">
-      <a v-for="item in items" :key="item" href="">{{ item }}</a>
+  <div class="container mb-8">
+    <div class="ml-32">
+      <a v-for="item in items" :key="item" href="" class="ml-[80px]">
+        {{ item }}</a
+      >
     </div>
-    <div class="md:block hidden ">
-      <p>Short by: Default sorting</p>
+    <div class="flex items-center gap-2">
+      <p class="ml-[90px]">Short by: Default sorting</p>
+      <span class="pt-1 cursor-pointer"
+        ><svg
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.6668 5.66663L8.00016 10.3333L3.3335 5.66663"
+            stroke="#3D3D3D"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </span>
     </div>
   </div>
 </template>

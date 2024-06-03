@@ -1,5 +1,5 @@
 <template>
-  <div class="container px-[10%]">
+  <div class=" container px-[5%]">
     <!-- Flex container for aligning items -->
     <div class="flex items-center py-[100px] justify-end gap-[13px]">
       <!-- Loop to generate 4 buttons -->
